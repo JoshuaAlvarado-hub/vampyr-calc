@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="calc">
+    <div id="close" onclick="window.close()">
+      <img src="./assets/close.png" alt="Close">
+    </div>
+    <img id="clear" src="./assets/clear.png" alt="Clear" onclick="clearAll()">
+    <img id="top-decor" src="./assets/top-decor.png" alt="">
+    
+    <div id="display">
+      <div id="expr"></div>
+      <div id="val">0</div>
+    </div>
+
+    <div id="keypad">
+      <button class="op-plus" onclick="setOp('+')">+</button>
+      <button class="op-div" onclick="setOp('/')">÷</button>
+      <button class="op-minus" onclick="setOp('-')">−</button>
+      <button class="op-mul" onclick="setOp('*')">×</button>
+      <button class="equals" onclick="calculate()">=</button>
+
+      <button class="n1" onclick="input('1')">1</button>
+      <button class="n2" onclick="input('2')">2</button>
+      <button class="n3" onclick="input('3')">3</button>
+      
+      <button class="n4" onclick="input('4')">4</button>
+      <button class="n5" onclick="input('5')">5</button>
+      <button class="n6" onclick="input('6')">6</button>
+      
+      <button class="n7" onclick="input('7')">7</button>
+      <button class="n8" onclick="input('8')">8</button>
+      <button class="n9" onclick="input('9')">9</button>
+      
+      <button class="ndot" onclick="dot()">.</button>
+      <button class="n0" onclick="input('0')">0</button>
+      <button class="nmod" onclick="mod()">%</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

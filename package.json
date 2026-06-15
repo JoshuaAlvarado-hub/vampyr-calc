@@ -1,0 +1,32 @@
+{
+  "name": "my-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Joshua Alvarado",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^42.3.3",
+    "electron-builder": "latest"
+  },
+  "build": {
+    "appId": "com.joshalvarado.vampyrcalc",
+    "productName": "Vampyr Calc",
+    "files": ["src/**/*", "main.js"],
+    "linux": {
+      "target": "AppImage",
+      "category": "Utility",
+      "icon": "src/assets/top-decor.png"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "src/assets/top-decor.png"
+    }
+  }
+}
