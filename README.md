@@ -13,7 +13,7 @@ Vampyr Calc is a goth pixel-art desktop calculator built with Electron.
 You'll need [Node.js](https://nodejs.org/) installed.
 
 ```bash
-git clone https://github.com/yourusername/vampyr-calc.git
+git clone https://github.com/JoshuaAlvarado-hub/vampyr-calc.git
 cd vampyr-calc
 npm install
 npm start
