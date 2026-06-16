@@ -124,9 +124,9 @@ img {
 
 #clear {
   position: absolute;
-  top: 24.45%;
-  left: 5.5%;
-  width: 5%;
+  top: -4.3%;
+  left: -5.8%;
+  width: 7.3%;
   height: auto;
   cursor: pointer;
   -webkit-app-region: no-drag;
