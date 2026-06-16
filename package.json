@@ -1,6 +1,6 @@
 {
   "name": "my-calculator",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -22,6 +22,11 @@
       "src/**/*",
       "main.js"
     ],
+    "publish": {
+      "provider": "github",
+      "owner": "JoshuaAlvarado-hub",
+      "repo": "vampyr-calc"
+    },
     "linux": {
       "target": "AppImage",
       "category": "Utility",
@@ -31,17 +36,7 @@
     "win": {
       "target": "nsis",
       "icon": "src/assets/icon.png",
-      "artifactName": "Vampyr-Calc-Setup-${version}.exe",
-      "publish": {
-        "provider": "github",
-        "owner": "JoshuaAlvarado-hub",
-        "repo": "vampyr-calc"
-      }
-    },
-    "publish": {
-      "provider": "github",
-      "owner": "JoshuaAlvarado-hub",
-      "repo": "vampyr-calc"
+      "artifactName": "Vampyr-Calc-Setup-${version}.exe"
     }
   },
   "dependencies": {
