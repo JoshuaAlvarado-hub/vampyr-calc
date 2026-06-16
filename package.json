@@ -25,7 +25,8 @@
     "publish": {
       "provider": "github",
       "owner": "JoshuaAlvarado-hub",
-      "repo": "vampyr-calc"
+      "repo": "vampyr-calc",
+      "releaseType": "release"
     },
     "linux": {
       "target": "AppImage",
