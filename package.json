@@ -1,6 +1,6 @@
 {
   "name": "my-calculator",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -18,7 +18,10 @@
   "build": {
     "appId": "com.joshalvarado.vampyrcalc",
     "productName": "Vampyr Calc",
-    "files": ["src/**/*", "main.js"],
+    "files": [
+      "src/**/*",
+      "main.js"
+    ],
     "linux": {
       "target": "AppImage",
       "category": "Utility",
@@ -27,6 +30,14 @@
     "win": {
       "target": "nsis",
       "icon": "src/assets/icon.png"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "JoshuaAlvarado-hub",
+      "repo": "vampyr-calc"
     }
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.9"
   }
 }

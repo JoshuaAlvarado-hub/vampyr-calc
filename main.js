@@ -1,4 +1,5 @@
 const { app, BrowserWindow, screen } = require('electron')
+const { autoUpdater } = require('electron-updater')
 const path = require('path')
 
 function createWindow() {
@@ -16,15 +17,20 @@ function createWindow() {
       nodeIntegration: true
     }
   })
+
   win.loadFile('src/index.html')
+
   win.webContents.on('did-finish-load', () => {
     win.webContents.setZoomFactor(1.0)
   })
+
   win.webContents.on('before-input-event', (event, input) => {
     if (input.control && (input.key === '+' || input.key === '-' || input.key === '=' || input.key === '0')) {
       event.preventDefault()
     }
   })
+
+  autoUpdater.checkForUpdatesAndNotify()
 }
 
 app.whenReady().then(createWindow)
