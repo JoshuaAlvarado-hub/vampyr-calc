@@ -1,6 +1,6 @@
 {
   "name": "my-calculator",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -30,7 +30,13 @@
     },
     "win": {
       "target": "nsis",
-      "icon": "src/assets/icon.png"
+      "icon": "src/assets/icon.png",
+      "artifactName": "Vampyr-Calc-Setup-${version}.exe",
+      "publish": {
+        "provider": "github",
+        "owner": "JoshuaAlvarado-hub",
+        "repo": "vampyr-calc"
+      }
     },
     "publish": {
       "provider": "github",
