@@ -25,7 +25,8 @@
     "linux": {
       "target": "AppImage",
       "category": "Utility",
-      "icon": "src/assets/icon.png"
+      "icon": "src/assets/icon.png",
+      "artifactName": "Vampyr-Calc-${version}.AppImage"
     },
     "win": {
       "target": "nsis",
