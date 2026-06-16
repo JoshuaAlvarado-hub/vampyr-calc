@@ -63,7 +63,7 @@ body {
   image-rendering: pixelated;
   padding: 4% 5%;
   margin-bottom: 4%;
-  height: 100px;
+  height: 22%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,7 +124,7 @@ img {
 
 #clear {
   position: absolute;
-  top: 27.5%;
+  top: 24.45%;
   left: 5.5%;
   width: 5%;
   height: auto;
@@ -161,18 +161,14 @@ button:active { transform: scale(0.98); }
   image-rendering: pixelated;
 }
 
-/* =======================================================
-   OPERATORS & CENTER EQUALS (Relative Percentage Coordinates)
-   ======================================================= */
 button.op-plus  { left: 1.5%;  top: 12%;  width: 30%; height: 13%; background-image: url('./assets/plus.png'); }
 button.op-div   { left: 3%;  top: 24%;   width: 28.5%; height: 13%; background-image: url('./assets/divide.png'); }
 button.op-minus { right: 1.5%; top: 12%;  width: 30%; height: 13%; background-image: url('./assets/minus.png'); }
 button.op-mul   { right: 3%; top: 24%;   width: 28.5%; height: 13%; background-image: url('./assets/multiply.png'); }
 
 button.equals {
-  left: 50%; 
+  left: 37.5%;
   top: 4.5%;
-  transform: translateX(-50%);
   width: 25%;
   aspect-ratio: 1 / 1; 
   height: auto;
@@ -180,30 +176,18 @@ button.equals {
   background-image: url('./assets/equals.png');
 }
 
-/* =======================================================
-   NUMPAD ROW 1 (1, 2, 3) - Top: 37%
-   ======================================================= */
 button.n1 { left: 5.5%;  top: 37%; width: 26.5%; height: 13%; background-image: url('./assets/n1.png'); }
-button.n2 { left: 50%;   top: 37%; width: 26.5%; height: 12%; transform: translateX(-50%); background-image: url('./assets/n2.png'); }
+button.n2 { left: 36.75%; top: 37%; width: 26.5%; height: 12%; background-image: url('./assets/n2.png'); }
 button.n3 { right: 5.5%; top: 37%; width: 26.5%; height: 13%; background-image: url('./assets/n3.png'); }
 
-/* =======================================================
-   NUMPAD ROW 2 (4, 5, 6) - Top: 51.5%
-   ======================================================= */
 button.n4 { left: 5.5%;  top: 51.5%; width: 26.5%; height: 13%; background-image: url('./assets/n4.png'); }
-button.n5 { left: 50%;   top: 51.5%; width: 26.5%; height: 12%; transform: translateX(-50%); background-image: url('./assets/n5.png'); }
+button.n5 { left: 36.75%; top: 51.5%; width: 26.5%; height: 12%; background-image: url('./assets/n5.png'); }
 button.n6 { right: 5.5%; top: 51.5%; width: 26.5%; height: 13%; background-image: url('./assets/n6.png'); }
 
-/* =======================================================
-   NUMPAD ROW 3 (7, 8, 9) - Top: 66%
-   ======================================================= */
 button.n7 { left: 5.5%;  top: 66%; width: 26.5%; height: 13%; background-image: url('./assets/n7.png'); }
-button.n8 { left: 50%;   top: 66%; width: 26.5%; height: 12%; transform: translateX(-50%); background-image: url('./assets/n8.png'); }
+button.n8 { left: 36.75%; top: 66%; width: 26.5%; height: 12%; background-image: url('./assets/n8.png'); }
 button.n9 { right: 5.5%; top: 66%; width: 26.5%; height: 13%; background-image: url('./assets/n9.png'); }
 
-/* =======================================================
-   NUMPAD ROW 4 (., 0, %) - Top: 80.5%
-   ======================================================= */
 button.ndot { left: 5.5%;  top: 80.5%; width: 26.5%; height: 13%; background-image: url('./assets/decimal.png'); }
-button.n0   { left: 50%;   top: 80.5%; width: 26.5%; height: 12%; transform: translateX(-50%); background-image: url('./assets/n0.png'); }
+button.n0 { left: 36.75%; top: 80.5%; width: 26.5%; height: 12%; background-image: url('./assets/n0.png'); }
 button.nmod { right: 5.5%; top: 80.5%; width: 26.5%; height: 13%; background-image: url('./assets/mod.png'); }
