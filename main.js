@@ -13,6 +13,7 @@ function createWindow() {
     resizable: false,
     frame: false,
     transparent: true,
+    useContentSize: true,
     webPreferences: {
       nodeIntegration: true
     }
@@ -22,6 +23,17 @@ function createWindow() {
 
   win.webContents.on('did-finish-load', () => {
     win.webContents.setZoomFactor(1.0)
+    win.webContents.executeJavaScript(`
+      const calc = document.getElementById('calc');
+      const decor = document.getElementById('top-decor');
+      const calcRect = calc.getBoundingClientRect();
+      const decorRect = decor.getBoundingClientRect();
+      const topEdge = Math.min(calcRect.top, decorRect.top);
+      const bottom = calcRect.bottom;
+      [calcRect.width, bottom - topEdge]
+    `).then(([w, h]) => {
+      win.setContentSize(Math.ceil(w), Math.ceil(h + 20))
+    })
   })
 
   win.webContents.on('before-input-event', (event, input) => {
