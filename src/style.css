@@ -161,20 +161,12 @@ button:active { transform: scale(0.98); }
   image-rendering: pixelated;
 }
 
+button.equals { left: 27.6%; top: 6%; width: 45%; height: 23%; background-image: url('./assets/equals.png'); }
+
 button.op-plus  { left: 1.5%;  top: 12%;  width: 30%; height: 13%; background-image: url('./assets/plus.png'); }
 button.op-div   { left: 3%;  top: 24%;   width: 28.5%; height: 13%; background-image: url('./assets/divide.png'); }
 button.op-minus { right: 1.5%; top: 12%;  width: 30%; height: 13%; background-image: url('./assets/minus.png'); }
 button.op-mul   { right: 3%; top: 24%;   width: 28.5%; height: 13%; background-image: url('./assets/multiply.png'); }
-
-button.equals {
-  left: 37.5%;
-  top: 4.5%;
-  width: 25%;
-  aspect-ratio: 1 / 1; 
-  height: auto;
-  z-index: 3;
-  background-image: url('./assets/equals.png');
-}
 
 button.n1 { left: 5.5%;  top: 37%; width: 26.5%; height: 13%; background-image: url('./assets/n1.png'); }
 button.n2 { left: 36.75%; top: 37%; width: 26.5%; height: 12%; background-image: url('./assets/n2.png'); }
