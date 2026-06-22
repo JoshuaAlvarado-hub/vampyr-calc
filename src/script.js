@@ -1,7 +1,12 @@
-let cur = '0', prev = null, op = null, fresh = false
+let cur = '0', prev = null, op = null, fresh = false, lastOp = null, lastVal = null
 
 function display(v) {
-  document.getElementById('val').textContent = v
+  const el = document.getElementById('val')
+  el.textContent = v
+  const len = v.replace('-', '').replace('.', '').length
+  if (len <= 6) el.style.fontSize = '10vw'
+  else if (len <= 9) el.style.fontSize = '7vw'
+  else el.style.fontSize = '5vw'
 }
 
 function input(d) {
@@ -38,7 +43,7 @@ function calculate() {
   else if (op === '/') r = c === 0 ? 'Error' : prev / c
 
   document.getElementById('expr').textContent = ''
-  cur = typeof r === 'string' ? r : String(parseFloat(r.toPrecision(10)))
+  cur = typeof r === 'string' ? r : String(parseFloat(r.toFixed(3)))
   display(cur)
   prev = null; op = null; fresh = true
 }
