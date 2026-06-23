@@ -103,9 +103,9 @@ img {
 
 #close {
   position: absolute;
-  top: 3%;
-  right: 6%;
-  width: 6%;
+  top: 2%;
+  right: 5%;
+  width: 10%;
   cursor: pointer;
   -webkit-app-region: no-drag;
   z-index: 10;
