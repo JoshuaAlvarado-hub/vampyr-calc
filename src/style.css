@@ -134,6 +134,14 @@ img {
   image-rendering: pixelated;
 }
 
+#clear img {
+  width: 100%;
+  height: auto;
+  image-rendering: pixelated;
+  display: block;
+  pointer-events: none;
+}
+
 button {
   position: absolute;
   background-size: 100% 100%;
