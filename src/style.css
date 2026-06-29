@@ -177,17 +177,17 @@ button.op-minus { right: 1.5%; top: 12%;  width: 30%; height: 13%; background-im
 button.op-mul   { right: 3%; top: 24%;   width: 28.5%; height: 13%; background-image: url('./assets/multiply.png'); }
 
 button.n1 { left: 5.5%;  top: 37%; width: 26.5%; height: 13%; background-image: url('./assets/n1.png'); }
-button.n2 { left: 36.75%; top: 37%; width: 26.5%; height: 12%; background-image: url('./assets/n2.png'); }
+button.n2 { left: 36.75%; top: 37%; width: 27.5%; height: 14%; background-image: url('./assets/n2.png'); }
 button.n3 { right: 5.5%; top: 37%; width: 26.5%; height: 13%; background-image: url('./assets/n3.png'); }
 
 button.n4 { left: 5.5%;  top: 51.5%; width: 26.5%; height: 13%; background-image: url('./assets/n4.png'); }
-button.n5 { left: 36.75%; top: 51.5%; width: 26.5%; height: 12%; background-image: url('./assets/n5.png'); }
+button.n5 { left: 36.75%; top: 51.5%; width: 27.5%; height: 14%; background-image: url('./assets/n5.png'); }
 button.n6 { right: 5.5%; top: 51.5%; width: 26.5%; height: 13%; background-image: url('./assets/n6.png'); }
 
 button.n7 { left: 5.5%;  top: 66%; width: 26.5%; height: 13%; background-image: url('./assets/n7.png'); }
-button.n8 { left: 36.75%; top: 66%; width: 26.5%; height: 12%; background-image: url('./assets/n8.png'); }
+button.n8 { left: 36.75%; top: 66%; width: 26.5%; height: 13%; background-image: url('./assets/n8.png'); }
 button.n9 { right: 5.5%; top: 66%; width: 26.5%; height: 13%; background-image: url('./assets/n9.png'); }
 
 button.ndot { left: 5.5%;  top: 80.5%; width: 26.5%; height: 13%; background-image: url('./assets/decimal.png'); }
-button.n0 { left: 36.75%; top: 80.5%; width: 26.5%; height: 12%; background-image: url('./assets/n0.png'); }
+button.n0 { left: 36.75%; top: 80.5%; width: 26.5%; height: 13%; background-image: url('./assets/n0.png'); }
 button.nmod { right: 5.5%; top: 80.5%; width: 26.5%; height: 13%; background-image: url('./assets/mod.png'); }
