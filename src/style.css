@@ -185,9 +185,9 @@ button.n5 { left: 36.75%; top: 51.5%; width: 27.5%; height: 14%; background-imag
 button.n6 { right: 5.5%; top: 51.5%; width: 26.5%; height: 13%; background-image: url('./assets/n6.png'); }
 
 button.n7 { left: 5.5%;  top: 66%; width: 26.5%; height: 13%; background-image: url('./assets/n7.png'); }
-button.n8 { left: 36.75%; top: 66%; width: 26.5%; height: 13%; background-image: url('./assets/n8.png'); }
+button.n8 { left: 36.75%; top: 66%; width: 27.5%; height: 14%; background-image: url('./assets/n8.png'); }
 button.n9 { right: 5.5%; top: 66%; width: 26.5%; height: 13%; background-image: url('./assets/n9.png'); }
 
 button.ndot { left: 5.5%;  top: 80.5%; width: 26.5%; height: 13%; background-image: url('./assets/decimal.png'); }
-button.n0 { left: 36.75%; top: 80.5%; width: 26.5%; height: 13%; background-image: url('./assets/n0.png'); }
+button.n0 { left: 36.75%; top: 80.5%; width: 27.5%; height: 14%; background-image: url('./assets/n0.png'); }
 button.nmod { right: 5.5%; top: 80.5%; width: 26.5%; height: 13%; background-image: url('./assets/mod.png'); }
